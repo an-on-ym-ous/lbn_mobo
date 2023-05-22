@@ -3,7 +3,6 @@ import scipy.io as sio
 import torch.nn as nn
 import numpy as np
 from pymoo.core.problem import Problem
-# from layer_config_forward_oracle import MultiLayerPerceptron_forward
 from layer_config_forward import MultiLayerPerceptron_forward
 
 class BO_surrogate_uncertainty(Problem):
@@ -19,7 +18,7 @@ class BO_surrogate_uncertainty(Problem):
         self.num_classes = 2
         # Load the model
         self.mu_models = []
-        for n_net in range(1, 11):
+        for n_net in range(10):
             # load mu models
             mu_model = MultiLayerPerceptron_forward(input_size, hidden_size_mu, self.num_classes, n_net)
             model_name = 'Models/iter_%d/mu_net_%d.ckpt' % (n_iter, n_net)
