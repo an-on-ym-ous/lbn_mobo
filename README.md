@@ -4,6 +4,10 @@
 
 ## Getting started
 
-This instruction is provided for running a small demo of LBN-MOBO on ZDT3 problem. You can run the code easily on google colab.
-1. Download the the repository and put it in a folder named 'LBN-MOBO' on your google drive. The pathes in the code are set assuming you create this folder in the root of your google drive.
-2. Run LBN-MOBO.ipynb using google colab.
+To run a demonstration of LBN-MOBO on the ZDT3 problem, follow these steps:
+
+Download the repository and place it in a folder named 'LBN-MOBO' on your Google Drive. Make sure to create this folder at the root level of your Google Drive. The the path in the code is set accordingly.
+
+Open the 'LBN-MOBO.ipynb' file in Google Colab and run it.
+
+By following these steps, you can easily execute the code on Google Colab and explore the demonstration of LBN-MOBO on the 30 dimension ZDT3 problem.
