@@ -10,7 +10,7 @@ To run a demonstration of LBN-MOBO on the ZDT3 problem, follow these steps:
 
 2. Open the 'LBN-MOBO.ipynb' file in Google Colab and run it.
 
-By following these steps, you can easily execute the code on Google Colab and explore the demonstration of LBN-MOBO on the 30 dimension ZDT3 problem. 
+By following these steps, you can easily execute the code on Google Colab and explore the demonstration of LBN-MOBO on the 30 dimension ZDT3 problem. You can change the number of iterations and batchsize using 'iter_max', and 'Batch_size' respectively.
 
 Please be aware that the computation time for the entire process on a CPU in Google Colab is approximately 1.6 hours. However, in real-world scenarios, we perform training of networks and acquisition computations in parallel using a cluster of GPUs and CPUs. 
 
